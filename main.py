@@ -56,6 +56,7 @@ class MyLabel(Label):
 
 
 root = Tk()
-anim = MyLabel(root, 'Fail1.gif', 50, 'white', True, 0.5, 0.85)
+root.geometry("500x500")
+anim = MyLabel(root, 'Fail1.gif', 50, 'white', True, 0.5, 0.5)
 anim.pack()
 root.mainloop()
